@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="about.css" />
+
+    <title>MY PROFILE</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MY PROFILE | ZIDAN</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="galeri.html">Gallery</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--akhir nav-->
+
+    <!--Jumbotron-->
+    <section class="jumbotron text-center">
+      <img
+        src="jidan3.jpeg"
+        alt="Zidan"
+        width="250"
+        class="rounded-circle img-thumbnail"
+      />
+      <h1 class="display-4">About</h1>
+      <br />
+      <h2 class="display-10">Zidan Fathannul</h2>
+    </section>
+    <!--Akhir Jumbotron-->
+
+    <!-- Pendidikan -->
+    <br />
+    <center>
+      <h1>Pendidikan</h1>
+      <table
+        border="5"
+        rowspancellspacing="0"
+        cellpadding="5"
+        colspan="3"
+        style="width: 700px"
+      >
+        <tr>
+          <th>Sekolah</th>
+          <th>Kota</th>
+          <th>Tahun Lulus</th>
+        </tr>
+        <tr>
+          <td>SDN 09 Wanasari</td>
+          <td>Cibitung</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>SMPIT Ulil Albab</td>
+          <td>Cibitung</td>
+          <td>2018</td>
+        </tr>
+        <tr>
+          <td>SMKS TELEKOMUNUKASI TELESANDI BEKASI</td>
+          <td>Bekasi</td>
+          <td>2021</td>
+        </tr>
+      </table>
+    </center>
+    <!-- Pendidikan End -->
+
+    <!-- Pengalaman Organisasi -->
+    <br />
+    <center>
+      <div class="row">
+        <h1 class="resume-title">Pengalaman Organisasi</h1>
+        <div class="resume-item">
+          <h5>1. Anggota Osis SMPIT Ulil Albab</h5>
+          <h6>Periode 2015 - 2018</h6>
+          <p><em>SMPIT Ulil Albab</em></p>
+        </div>
+        <div class="resume-item">
+          <h5>2. Panitia Biggest</h5>
+          <h6>2020</h6>
+          <p><em>SMKS TELEKOMUNUKASI TELESANDI BEKASI</em></p>
+        </div>
+      </div>
+    </center>
+    <!-- Pengalaman Organisasi End -->
+    <!--footer-->
+    <footer class="bg-dark text-white text-center pb-3">
+      <p>
+        &copy; 2022 By
+        <a
+          href="https://www.instagram.com/jidaannnf/"
+          class="text-white fw-bold"
+          >Zidan Fathannul</a
+        >
+      </p>
+    </footer>
+    <!--akhir footer-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
